@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+}
+
+main {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.border-around {
+  border: 1px solid gray;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272a31;
+  height: 60px;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.fa-search {
+  color: white;
+  margin-left: 5px;
+}
+
+.nav-link {
+  text-decoration: none;
+  background-color:  #039dfc;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+.blog-title {
+  color: #039dfc;
+}
+
+.blog-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.blog-img {
+  width: 70%;
+}
+
+.img-caption {
+  font-size: 12px;
+  color: gray;
+}
