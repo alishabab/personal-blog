@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+}
+
+main {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272a31;
+  height: 60px;
+ 
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.fa-search {
+  color: white;
+  margin-left: 5px;
+}
+
+.nav-link {
+  background-color:  #039dfc;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+.logo {
+  font: bold 36px/36px "Roboto Condensed", sans-serif;
+  margin: 10px 0 20px 0;
+  color: #ec5242;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+}
+
+.card {
+  background-color: #dae3de;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.card-heading {
+  color: #039dfc;
+}
+
+.card-date {
+  color: gray;
+}
+
+.card-img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.card-text {
+  font-family: sans-serif;
+  color: #272a31;;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.card-link {
+  font-size: 18px;
+  color: #039dfc;
+}
+
+.card-link:hover {
+  color: #ec5242;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #272a31;
+  color: white;
+  margin-top: 10px;
+  height: 40px;
+}
+
+@media(min-width: 700px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media(min-width: 1024px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
