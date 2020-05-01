@@ -1,0 +1,36 @@
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272a31;
+  height: 60px;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.fa-search {
+  color: white;
+  margin-left: 5px;
+}
+
+.nav-link {
+  text-decoration: none;
+  background-color: #039dfc;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #272a31;
+  color: white;
+  margin-top: 10px;
+  height: 40px;
+}

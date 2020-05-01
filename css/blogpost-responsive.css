@@ -1,0 +1,27 @@
+@media (min-width: 760px) {
+  .blog-container {
+    gap: 10px;
+    grid-template-areas:
+      "post post post post"
+      "author author archives archives";
+  }
+  .blog-link-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .blog-container {
+    gap: 10px;
+    grid-template-areas:
+      "post post post author"
+      "post post post archives"
+      "post post post archives";
+  }
+
+  .blog-links {
+    flex-direction: row;
+  }
+}

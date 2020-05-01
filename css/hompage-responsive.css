@@ -1,0 +1,12 @@
+@media(min-width: 760px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media(min-width: 1024px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
