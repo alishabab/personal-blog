@@ -1,7 +1,5 @@
 * {
   margin: 0;
-  text-decoration: none;
-  list-style: none;
   box-sizing: border-box;
 }
 body {
@@ -14,6 +12,7 @@ main {
 }
 
 .navbar {
+  list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,6 +31,7 @@ main {
 }
 
 .nav-link {
+  text-decoration: none;
   background-color:  #039dfc;
   color: white;
   font-size: 18px;
@@ -105,7 +105,7 @@ main {
   height: 40px;
 }
 
-@media(min-width: 700px) {
+@media(min-width: 760px) {
   .card-container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
