@@ -2,13 +2,18 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  max-width: 1440px;
-}
 
 main {
   width: 98%;
   margin: 0 auto;
+}
+
+blockquote { 
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .border-around {
